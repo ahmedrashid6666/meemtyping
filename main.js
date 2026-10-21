@@ -137,7 +137,7 @@ if (deck) {
     // Load three.js only after the page has painted, so the text appears first.
     const host = document.createElement("div");
     host.className = "ring"; host.setAttribute("aria-hidden", "true");
-    const boot = () => import("/hero3d.js")
+    const boot = () => import("./hero3d.js")
       .then((m) => {
         wrapEl.insertBefore(host, deck);
         return m.start({

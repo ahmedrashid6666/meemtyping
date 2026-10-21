@@ -12,13 +12,13 @@
   <meta property="og:url" content="https://meemtyping.com/">
   <meta property="og:image" content="https://meemtyping.com/img/hero.webp">
   <meta name="theme-color" content="#123a27">
-  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="icon" type="image/png" href="favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Inter:wght@400;600&display=swap">
-  <link rel="preload" as="image" href="/img/typing.webp" fetchpriority="high">
-  <script type="importmap">{"imports":{"three":"/vendor/three.module.min.js"}}</script>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="preload" as="image" href="img/typing.webp" fetchpriority="high">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.min.js"}}</script>
+  <link rel="stylesheet" href="style.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -44,7 +44,7 @@
   }
   </script>
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What services do you offer?", "acceptedAnswer": {"@type": "Answer", "text": "Document typing, stamp services, visa services, Emirates ID, printing, and translation between Arabic and English."}}, {"@type": "Question", "name": "Do you work in Arabic as well as English?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We offer services in both English and Arabic."}}, {"@type": "Question", "name": "Where are you located?", "acceptedAnswer": {"@type": "Answer", "text": "In Al Bustan, Ajman, behind Al Bustan Police Station."}}, {"@type": "Question", "name": "What are your working hours?", "acceptedAnswer": {"@type": "Answer", "text": "Saturday to Thursday: 8:30 AM – 2:00 PM and 5:00 PM – 9:00 PM. Friday: 8:30 AM – 11:45 AM and 5:00 PM – 9:00 PM. Sunday: closed."}}, {"@type": "Question", "name": "How do I get started or ask about a price?", "acceptedAnswer": {"@type": "Answer", "text": "Call or WhatsApp +971 55 990 0507 with what you need, or visit us. We will tell you what to bring."}}]}</script>
-  <script src="/main.js" defer></script>
+  <script src="main.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -58,13 +58,13 @@
 
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="/" aria-label="Meem Typing & Stamps — home"><img src="/img/logo-sm.png" width="400" height="116" alt="Meem Typing & Stamps"></a>
+      <a class="brand" href="./" aria-label="Meem Typing & Stamps — home"><img src="img/logo-sm.png" width="400" height="116" alt="Meem Typing & Stamps"></a>
       <button class="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
       <nav class="nav" id="nav" aria-label="Main">
-        <a href="/" aria-current="page">Home</a>
-        <a href="/services/">Services</a>
-        <a href="/about/">About</a>
-        <a href="/contact/">Contact</a>
+        <a href="./" aria-current="page">Home</a>
+        <a href="services/">Services</a>
+        <a href="about/">About</a>
+        <a href="contact/">Contact</a>
         <a class="btn btn-green" href="https://wa.me/971559900507" target="_blank" rel="noopener">WhatsApp Us</a>
       </nav>
     </div>
@@ -74,12 +74,12 @@
     <!-- Hero: the service deck becomes the backdrop -->
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-bg" aria-hidden="true">
-        <img src="/img/typing.webp" data-bg="typing" alt="" class="on" fetchpriority="high">
-        <img src="/img/stamps.webp" data-bg="stamps" alt="" loading="lazy">
-        <img src="/img/visa.webp" data-bg="visa" alt="" loading="lazy">
-        <img src="/img/eid.webp" data-bg="eid" alt="" loading="lazy">
-        <img src="/img/printing.webp" data-bg="printing" alt="" loading="lazy">
-        <img src="/img/translation.webp" data-bg="translation" alt="" loading="lazy">
+        <img src="img/typing.webp" data-bg="typing" alt="" class="on" fetchpriority="high">
+        <img src="img/stamps.webp" data-bg="stamps" alt="" loading="lazy">
+        <img src="img/visa.webp" data-bg="visa" alt="" loading="lazy">
+        <img src="img/eid.webp" data-bg="eid" alt="" loading="lazy">
+        <img src="img/printing.webp" data-bg="printing" alt="" loading="lazy">
+        <img src="img/translation.webp" data-bg="translation" alt="" loading="lazy">
       </div>
 
       <div class="wrap hero-main">
@@ -105,27 +105,27 @@
         <div class="deck-wrap rise" style="--i:3">
           <div class="deck" role="group" aria-label="Our services — choose one to preview">
             <button class="card" data-bg="typing" data-desc="Professional typing services for all types of documents, applications, and forms in English and Arabic." aria-pressed="true">
-              <img src="/img/typing.webp" alt="" width="900" height="600"><span class="num">01</span>
+              <img src="img/typing.webp" alt="" width="900" height="600"><span class="num">01</span>
               <span class="c-body"><span class="c-title">Document Typing</span><span class="c-sub">English &amp; Arabic</span></span>
             </button>
             <button class="card" data-bg="stamps" data-desc="Custom rubber stamps, official seals, and stamp creation for businesses and individuals." aria-pressed="false">
-              <img src="/img/stamps.webp" alt="" width="900" height="600" loading="lazy"><span class="num">02</span>
+              <img src="img/stamps.webp" alt="" width="900" height="600" loading="lazy"><span class="num">02</span>
               <span class="c-body"><span class="c-title">Stamp Services</span><span class="c-sub">Stamps &amp; seals</span></span>
             </button>
             <button class="card" data-bg="visa" data-desc="Assistance with visa applications, renewals, and related documentation services." aria-pressed="false">
-              <img src="/img/visa.webp" alt="" width="900" height="600" loading="lazy"><span class="num">03</span>
+              <img src="img/visa.webp" alt="" width="900" height="600" loading="lazy"><span class="num">03</span>
               <span class="c-body"><span class="c-title">Visa Services</span><span class="c-sub">Applications &amp; renewals</span></span>
             </button>
             <button class="card" data-bg="eid" data-desc="Emirates ID application, renewal, and related services for residents." aria-pressed="false">
-              <img src="/img/eid.webp" alt="" width="900" height="600" loading="lazy"><span class="num">04</span>
+              <img src="img/eid.webp" alt="" width="900" height="600" loading="lazy"><span class="num">04</span>
               <span class="c-body"><span class="c-title">Emirates ID</span><span class="c-sub">For residents</span></span>
             </button>
             <button class="card" data-bg="printing" data-desc="High-quality printing, copying, and scanning services for all document types." aria-pressed="false">
-              <img src="/img/printing.webp" alt="" width="900" height="600" loading="lazy"><span class="num">05</span>
+              <img src="img/printing.webp" alt="" width="900" height="600" loading="lazy"><span class="num">05</span>
               <span class="c-body"><span class="c-title">Printing Services</span><span class="c-sub">Print · copy · scan</span></span>
             </button>
             <button class="card" data-bg="translation" data-desc="Professional translation services between Arabic and English for official documents." aria-pressed="false">
-              <img src="/img/translation.webp" alt="" width="900" height="600" loading="lazy"><span class="num">06</span>
+              <img src="img/translation.webp" alt="" width="900" height="600" loading="lazy"><span class="num">06</span>
               <span class="c-body"><span class="c-title">Translation</span><span class="c-sub">Arabic ⇄ English</span></span>
             </button>
           </div>
@@ -160,12 +160,12 @@
       <div class="wrap">
         <div class="head reveal"><span class="eyebrow">What we do</span><h2 id="svc-title">Our Services</h2><p>Comprehensive solutions for all your documentation needs</p></div>
         <div class="grid grid-3">
-          <article class="svc reveal" style="--i:0" id="s-typing"><figure><img src="/img/typing.webp" alt="A man typing on a laptop at a desk" width="1000" height="667" loading="lazy"></figure><div class="b"><span class="n">01</span><h3>Document Typing</h3><p>Professional typing services for all types of documents, applications, and forms in English and Arabic.</p><a class="more" href="/services/#typing">Learn more<span class="sr-only"> about Document Typing</span></a></div></article>
-          <article class="svc reveal" style="--i:1" id="s-stamps"><figure><img src="/img/stamps.webp" alt="A rubber stamp resting on an open document" width="1000" height="667" loading="lazy"></figure><div class="b"><span class="n">02</span><h3>Stamp Services</h3><p>Custom rubber stamps, official seals, and stamp creation for businesses and individuals.</p><a class="more" href="/services/#stamps">Learn more<span class="sr-only"> about Stamp Services</span></a></div></article>
-          <article class="svc reveal" style="--i:2" id="s-visa"><figure><img src="/img/visa.webp" alt="Passports and boarding passes held in a hand" width="1000" height="667" loading="lazy"></figure><div class="b"><span class="n">03</span><h3>Visa Services</h3><p>Assistance with visa applications, renewals, and related documentation services.</p><a class="more" href="/services/#visa">Learn more<span class="sr-only"> about Visa Services</span></a></div></article>
-          <article class="svc reveal" style="--i:0" id="s-emirates-id"><figure><img src="/img/eid.webp" alt="A card being handed over" width="1000" height="667" loading="lazy"></figure><div class="b"><span class="n">04</span><h3>Emirates ID</h3><p>Emirates ID application, renewal, and related services for residents.</p><a class="more" href="/services/#emirates-id">Learn more<span class="sr-only"> about Emirates ID</span></a></div></article>
-          <article class="svc reveal" style="--i:1" id="s-printing"><figure><img src="/img/printing.webp" alt="A staff member using a copier" width="1000" height="667" loading="lazy"></figure><div class="b"><span class="n">05</span><h3>Printing Services</h3><p>High-quality printing, copying, and scanning services for all document types.</p><a class="more" href="/services/#printing">Learn more<span class="sr-only"> about Printing Services</span></a></div></article>
-          <article class="svc reveal" style="--i:2" id="s-translation"><figure><img src="/img/translation.webp" alt="A customer reviewing documents on a phone and laptop" width="1000" height="667" loading="lazy"></figure><div class="b"><span class="n">06</span><h3>Translation</h3><p>Professional translation services between Arabic and English for official documents.</p><a class="more" href="/services/#translation">Learn more<span class="sr-only"> about Translation</span></a></div></article>
+          <article class="svc reveal" style="--i:0" id="s-typing"><figure><img src="img/typing.webp" alt="A man typing on a laptop at a desk" width="1000" height="667" loading="lazy"></figure><div class="b"><span class="n">01</span><h3>Document Typing</h3><p>Professional typing services for all types of documents, applications, and forms in English and Arabic.</p><a class="more" href="services/#typing">Learn more<span class="sr-only"> about Document Typing</span></a></div></article>
+          <article class="svc reveal" style="--i:1" id="s-stamps"><figure><img src="img/stamps.webp" alt="A rubber stamp resting on an open document" width="1000" height="667" loading="lazy"></figure><div class="b"><span class="n">02</span><h3>Stamp Services</h3><p>Custom rubber stamps, official seals, and stamp creation for businesses and individuals.</p><a class="more" href="services/#stamps">Learn more<span class="sr-only"> about Stamp Services</span></a></div></article>
+          <article class="svc reveal" style="--i:2" id="s-visa"><figure><img src="img/visa.webp" alt="Passports and boarding passes held in a hand" width="1000" height="667" loading="lazy"></figure><div class="b"><span class="n">03</span><h3>Visa Services</h3><p>Assistance with visa applications, renewals, and related documentation services.</p><a class="more" href="services/#visa">Learn more<span class="sr-only"> about Visa Services</span></a></div></article>
+          <article class="svc reveal" style="--i:0" id="s-emirates-id"><figure><img src="img/eid.webp" alt="A card being handed over" width="1000" height="667" loading="lazy"></figure><div class="b"><span class="n">04</span><h3>Emirates ID</h3><p>Emirates ID application, renewal, and related services for residents.</p><a class="more" href="services/#emirates-id">Learn more<span class="sr-only"> about Emirates ID</span></a></div></article>
+          <article class="svc reveal" style="--i:1" id="s-printing"><figure><img src="img/printing.webp" alt="A staff member using a copier" width="1000" height="667" loading="lazy"></figure><div class="b"><span class="n">05</span><h3>Printing Services</h3><p>High-quality printing, copying, and scanning services for all document types.</p><a class="more" href="services/#printing">Learn more<span class="sr-only"> about Printing Services</span></a></div></article>
+          <article class="svc reveal" style="--i:2" id="s-translation"><figure><img src="img/translation.webp" alt="A customer reviewing documents on a phone and laptop" width="1000" height="667" loading="lazy"></figure><div class="b"><span class="n">06</span><h3>Translation</h3><p>Professional translation services between Arabic and English for official documents.</p><a class="more" href="services/#translation">Learn more<span class="sr-only"> about Translation</span></a></div></article>
         </div>
       </div>
     </section>
@@ -212,12 +212,12 @@
   <footer class="site-footer">
     <div class="wrap foot">
       <div>
-        <a class="logo-chip" href="/"><img src="/img/logo-sm.png" width="400" height="116" alt="Meem Typing & Stamps" loading="lazy"></a>
+        <a class="logo-chip" href="./"><img src="img/logo-sm.png" width="400" height="116" alt="Meem Typing & Stamps" loading="lazy"></a>
         <p>Your trusted partner for professional typing and documentation services in Ajman</p>
       </div>
       <div>
         <h3>Pages</h3>
-        <ul><li><a href="/">Home</a></li><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li><li><a href="/services/">Our Services</a></li></ul>
+        <ul><li><a href="./">Home</a></li><li><a href="about/">About</a></li><li><a href="contact/">Contact</a></li><li><a href="services/">Our Services</a></li></ul>
       </div>
       <div>
         <h3>Contact</h3>
